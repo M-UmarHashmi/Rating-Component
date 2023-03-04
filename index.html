@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Rating Component</title>
+</head>
+<body>
+    <main class="container ">
+        <img class="not" src="images/icon-star.svg" alt="star">
+        <h2 class="not">How did we do?</h2>
+        <p class="not">Please let us know how we did with your support request. All feedback is appreciated to help us imporve our offering!</p>
+        <div class="rating not">
+            <span class="rating-com comH not"  >1</span>
+            <span class="rating-com comH not"  >2</span>
+            <span class="rating-com comH not"  >3</span>
+            <span class="rating-com comH not"  >4</span>
+            <span class="rating-com comH not"  >5</span>
+        </div>
+        <button class="not" type="submit" onclick='handleClick(this)'>Submit</button>
+        <img class="hidden yes" src="images/illustration-thank-you.svg" alt="thanks">
+        <p class="ratingShow hidden yes">You selected <span class="value"></span> out of 5</p>
+        <h1 class="hidden yes">Thank you!</h1>
+        <p class="text hidden yes">We appreciate you taking the time to give a rating. <br> If you ever need or support, don't hesitate to <br> get in touch! </p>
+
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
